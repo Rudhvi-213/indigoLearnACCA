@@ -1,0 +1,37 @@
+.placement_container {
+  background-color: #f5edff;
+  height: 100%;
+}
+
+.placement_container_child {
+  margin: 60px 0px;
+  padding: 30px;
+}
+
+.placement_heading {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.placement_heading_span {
+  position: absolute;
+  bottom: -10px;
+  left: 45%;
+  width: 150px;
+  border-bottom: 5px solid #33107a;
+}
+
+.placement_details_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.placement_details_para1 {
+  font-size: 25px;
+}
+.placement_details_para2 {
+  font-size: 18px;
+}

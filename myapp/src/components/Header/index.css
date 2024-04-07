@@ -1,0 +1,114 @@
+.nav_bar {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  background: #33107a;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.nav_bar_child_3 {
+  align-self: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.company_name {
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: row;
+}
+
+.company_name_svg {
+  font-size: 33px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.company_name_heading {
+  color: white;
+}
+
+.nav_bar_middle_container {
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: row;
+}
+.nav_bar_middle_container_child {
+  gap: 35px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.nav_bar_middle_container_para {
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.nav_bar_auth {
+  align-self: center;
+}
+
+.nav_bar_auth_child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.nav_bar_auth_button {
+  text-transform: capitalize;
+  font-weight: bold;
+  background: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  vertical-align: middle;
+  font-family: "Nunito Sans";
+  font-weight: 500;
+  font-size: 0.875rem;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  color: #33107a;
+}
+
+.nav_bar_auth_button_span {
+  display: inherit;
+  margin-right: 8px;
+  margin-left: -4px;
+}
+.nav_bar_auth_button_svg {
+  font-size: 20px;
+  overflow: hidden;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
